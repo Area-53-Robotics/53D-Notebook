@@ -1,0 +1,8 @@
+[files]
+extend-exclude = ["*.md"]
+
+[default.extend-words]
+Pilons = "Pilons"
+CADed = "CADed"
+Ded = "Ded"
+typ = "typ"
