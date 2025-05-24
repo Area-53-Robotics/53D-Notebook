@@ -25,7 +25,7 @@ After brainstorming different robot ideas, we had to pick one to begin building.
   - Durability - The ability to remain functional despite being faced with challenges and obstacles.
   - Mobility - To be able to move freely and efficiently.
   - Space Use - To utilize the space to the maximum ability.
-  - Intake - The consideration and quality of the intake. 
+  - Intake - The consideration and quality of the intake.
   - Clamp Ability - How well the clamp functions in consideration to the rest of the robot.
   - Wall Stake Consistency - How consistently the robot can score rings on the wall stakes.
   - Climb Ability - How efficient the climb is.
@@ -42,8 +42,6 @@ After brainstorming different robot ideas, we had to pick one to begin building.
     ("Climb Ability", 3),
   ),
   choices: (
-    (3, 3, 4, 3, 4, 3, 4),
-    (4, 4, 4, 3, 3, 3, 3),
     ("Makhi", 2, 2, 2, 1, 3, 4, 2),
     ("Ishika", 2, 3, 3, 4, 4, 3, 3),
     ("Eric", 3, 4, 4, 4, 3, 2, 2),

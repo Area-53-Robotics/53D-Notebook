@@ -6,7 +6,7 @@
   title: "",
   type: "",
   date: none,
-  attendance: "",
+  attendance: (),
   designed: "",
   witnessed: "",
   body
@@ -18,18 +18,18 @@
 
   assert(
     designed in team-members,
-    message: "Invalid \"Designed By\""
+    message: designed + " is an invalid name in the \"Designed By\" for entry \nTitle: " + title + "\nType: " + type + "\nDate: " + date.display("[year]/[month]/[day]")
   )
 
   assert(
     witnessed in team-members,
-    message: "Invalid \"Witnessed By\""
+    message: witnessed + " is an invalid name in the \"Witnessed By\" for entry \nTitle: " + title + "\nType: " + type + "\nDate: " + date.display("[year]/[month]/[day]")
   )
 
   for member in attendance {
     assert(
       member in team-members,
-      message: "Invalid team member in the attendance list"
+      message: member + " is an invalid team member name in the attendance list for entry \nTitle: " + title + "\nType: " + type + "\nDate: " + date.display("[year]/[month]/[day]")
     )
   }
 

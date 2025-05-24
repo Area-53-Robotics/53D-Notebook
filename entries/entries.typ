@@ -1,104 +1,45 @@
-// // ! First Notebook
-// // April
-// #include "pre-season/pre-reveal-reflection.typ"
-// #include "pre-season/reveal-video-thoughts.typ"
+// ! First Notebook
+// April
+#include "pre-season/pre-reveal-reflection.typ"
+#include "pre-season/reveal-video-thoughts.typ"
 // #include "pre-season/game-challenge-rules.typ"
 // #include "pre-season/game-challenge-strategy.typ"
-// #include "management/high-stakes.typ"
+#include "management/high-stakes.typ"
 
-// // June
-// #include "management/june.typ"
-// #include "overall-robot-1/brainstorm.typ"
-// #include "overall-robot-1/select.typ"
-// #include "overall-robot-1/plan.typ"
-// #include "management/kanban-board.typ"
-// #include "drivetrain-1/identify.typ"
-// #include "drivetrain-1/understand.typ"
-// #include "drivetrain-1/brainstorm-drive-configurations.typ"
-// #include "drivetrain-1/select-drive-configurations.typ"
-// #include "drivetrain-1/brainstorm-wheel-types.typ"
-// #include "drivetrain-1/select-wheel-types.typ"
-// #include "drivetrain-1/brainstorm-gear-ratio.typ"
-// #include "drivetrain-1/select-gear-ratio.typ"
-// #include "drivetrain-1/plan.typ"
+// June
+#include "management/june.typ"
+#include "overall-robot-1/brainstorm.typ"
+#include "overall-robot-1/select.typ"
+#include "overall-robot-1/plan.typ"
+#include "management/kanban-board.typ"
+#include "drivetrain-1/identify.typ"
+#include "drivetrain-1/understand.typ"
+#include "drivetrain-1/brainstorm-drive-configurations.typ"
+#include "drivetrain-1/select-drive-configurations.typ"
+#include "drivetrain-1/brainstorm-wheel-types.typ"
+#include "drivetrain-1/select-wheel-types.typ"
+#include "drivetrain-1/brainstorm-gear-ratio.typ"
+#include "drivetrain-1/select-gear-ratio.typ"
+#include "drivetrain-1/plan.typ"
 
-// // July
-// #include "manual-updates/manual-v1-update.typ"
-// #include "management/july-august.typ"
-// #include "drivetrain-1/build.typ"
+// July
+#include "manual-updates/manual-v1-update.typ"
+#include "drivetrain-1/build.typ"
 
-// // August
-// #include "misc-program/github-workflows.typ"
-// #include "event-observations/identify-minnesota-sig.typ"
-// #include "overall-robot-2/brainstorm.typ"
-// #include "overall-robot-2/select.typ"
-// #include "drivetrain-1/build-2.typ"
-// #include "drivetrain-1/program-driver-control.typ"
-// #include "drivetrain-1/test.typ"
-// #include "clamp-1/identify.typ"
-// #include "clamp-1/understand.typ"
-// #include "clamp-1/brainstorm.typ"
-// #include "clamp-1/select.typ"
-// #include "clamp-1/plan.typ"
-// #include "clamp-1/build-tower.typ"
-// #include "clamp-1/build.typ"
-// #include "clamp-1/build-troubleshoot.typ"
-// #include "clamp-1/program.typ"
-// #include "clamp-1/test.typ"
-// #include "intake-1/identify.typ"
-// #include "intake-1/understand.typ"
-// #include "intake-1/brainstorm.typ"
+// August
+#include "misc-program/github-workflows.typ"
+#include "drivetrain-1/build-2.typ"
+#include "drivetrain-1/program-driver-control.typ"
+#include "drivetrain-1/test.typ"
 
-// // September
-// #include "management/september.typ"
-// #include "intake-1/select.typ"
-// #include "intake-1/plan.typ"
-// // ! Second Notebook
-// #include "manual-updates/manual-v2-update.typ"
-// #include "intake-1/build.typ"
-// #include "intake-1/build-troubleshoot.typ"
-// #include "intake-1/program.typ"
-// #include "intake-1/test.typ"
-// #include "autonomous/area-53-scrimmage-auton.typ"
-// #include "competition/area-53-scrimmage.typ"
+// September
+// ! Second Notebook
+#include "autonomous/area-53-scrimmage-auton.typ"
+#include "competition/area-53-scrimmage.typ"
 
-// // October
-// #include "management/october.typ"
-// #include "clamp-2/identify.typ"
-// #include "clamp-2/plan.typ"
-// #include "clamp-2/build.typ"
-// #include "clamp-2/build-troubleshoot-1.typ"
-// #include "clamp-2/test.typ"
-// #include "redirect-mech/identify.typ"
-// #include "redirect-mech/understand.typ"
-// #include "redirect-mech/brainstorm.typ"
-// #include "redirect-mech/select.typ"
-// #include "redirect-mech/plan.typ"
-// #include "redirect-mech/build.typ"
-// #include "redirect-mech/program.typ"
-// #include "redirect-mech/test.typ"
-// #include "competition/dulaney-royal-rumble.typ"
-// #include "ladybrown-1/identify.typ"
-// #include "ladybrown-1/understand.typ"
-// #include "ladybrown-1/brainstorm.typ"
-// #include "ladybrown-1/select.typ"
-// #include "ladybrown-1/plan.typ"
-// #include "overall-robot-3/identify.typ"
-// #include "overall-robot-3/plan.typ"
-// #include "intake-2/identify.typ"
-// #include "intake-2/plan.typ"
+// November
+#include "drivetrain-1/build-troubleshoot.typ"
 
-// // November
-// #include "management/november.typ"
-// #include "drivetrain-1/build-troubleshoot.typ"
-// #include "ladybrown-1/build.typ"
-// #include "intake-2/build.typ"
-// #include "ladybrown-1/program.typ"
-// #include "ladybrown-1/test.typ"
-// #include "intake-2/test.typ"
-// #include "competition/capital-beltway-challenge.typ"
-// #include "clamp-2/build-troubleshoot-2.typ"
-// #include "clamp-2/test-2.typ"
 // ! Third Notebook
 #include "odometry/identify.typ"
 #include "odometry/understand.typ"
@@ -114,48 +55,9 @@
 #include "odometry/program-pid.typ"
 
 // // December
-#include "management/december.typ"
 #include "odometry/test.typ"
-#include "event-observations/identify-speedway-sig-observations.typ"
-#include "event-observations/identify-speedway-sig-strategy.typ"
-#include "competition/south-hagerstown-rebel-rumble.typ"
-#include "manual-updates/manual-v2.2-update.typ"
-#include "overall-robot-3/build-troubleshoot.typ"
-#include "intake-2/build-maintenance.typ"
 
 // January
-#include "management/january.typ"
-#include "intake-2/build-troubleshoot.typ"
 #include "event-observations/identify-sugar-rush-sig-observations.typ"
 #include "event-observations/identify-sugar-rush-sig-strategy.typ"
-#include "competition/valley-mall.typ"
-#include "intake-2/test-2.typ"
-#include "competition/cardinal-classic.typ"
-#include "competition/kalahari-classic.typ"
-#include "manual-updates/manual-v3.0-update.typ"
 #include "drivetrain-1/build-troubleshoot-2.typ"
-
-// February
-#include "management/february.typ"
-#include "ring-rush-mech-1/identify.typ"
-#include "ring-rush-mech-1/understand.typ"
-#include "ring-rush-mech-1/brainstorm.typ"
-#include "ring-rush-mech-1/select.typ"
-#include "ring-rush-mech-1/plan.typ"
-#include "goal-rush-mech-1/identify.typ"
-#include "goal-rush-mech-1/understand.typ"
-#include "goal-rush-mech-1/brainstorm.typ"
-#include "goal-rush-mech-1/select.typ"
-#include "goal-rush-mech-1/plan.typ"
-#include "ring-rush-mech-1/build.typ"
-#include "ring-rush-mech-1/build-troubleshooting.typ"
-#include "goal-rush-mech-1/build.typ"
-#include "goal-rush-mech-1/build-troubleshooting.typ"
-#include "overall-robot-3/build-troubleshoot2.typ"
-// ! program ring rush
-// ! test ring rush
-// ! program goal rush
-// #include "goal-rush-mech-1/test.typ"
-
-// // TBD
-// #include "pre-auton-menu/program-pre-auton-menu.typ"

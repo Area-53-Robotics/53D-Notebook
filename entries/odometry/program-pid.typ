@@ -4,7 +4,7 @@
   title: "Odometry v1 - PID",
   type: "program",
   date: datetime(year: 2024, month: 11, day: 30),
-  attendance: ("Ishika"),
+  attendance: ("Ishika",),
   designed: "Ishika",
   witnessed: "Ishika",
 )

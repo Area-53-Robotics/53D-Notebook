@@ -4,7 +4,7 @@
   title: "Odometry v1 - Implementation",
   type: "brainstorm",
   date: datetime(year: 2024, month: 11, day: 29),
-  attendance: ("Ishika"),
+  attendance: ("Ishika",),
   designed: "Ishika",
   witnessed: "Ishika",
 )
@@ -14,8 +14,8 @@
   monthly-schedule: "On",
   yearly-schedule: "Off",
   (
-    (true, "Brainstorm implementation methods for an odometry system.", ("Ishika")),
-    (true, "Select the best implementation method using a decision matrix.", ("Ishika")),
+    (true, "Brainstorm implementation methods for an odometry system.", ("Ishika",)),
+    (true, "Select the best implementation method using a decision matrix.", ("Ishika",)),
     (true, "Brainstorm hardware configurations for an odometry system.", "Everyone"),
     (true, "Select the best hardware configuration using a decision matrix.", "Everyone"),
     (true, "Plan the implementation of the odometry system.", "Everyone"),

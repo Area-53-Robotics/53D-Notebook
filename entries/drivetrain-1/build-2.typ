@@ -33,7 +33,7 @@ We are happy that the drivetrain is completed. We are making much more progress 
   recurring: [
     - *Inventory* (Collecting materials from the manifest to build the drivetrain): Eric, Ishika
     - *Manufacturing* (cutting pieces to size, cleaning sharp edges): Eric
-    - *Oversight & Quality Control*: 
+    - *Oversight & Quality Control*:
     - *Initial Testing*: Everyone
     - *Programming*: Ishika
   ],
@@ -45,7 +45,7 @@ We are happy that the drivetrain is completed. We are making much more progress 
 
 == Build Process
 === Materials
-- x1 26x2x1 C-channel 
+- x1 26x2x1 C-channel
 - x4 11x2x1 C-channel
 - The remaining materials can be found in the toolbox
 
@@ -66,7 +66,7 @@ We are happy that the drivetrain is completed. We are making much more progress 
       - They are attached so that the C-channels on the side are further ahead compared to the inner C-channels.
       - This is because the motors and screw joints prevent screws from reaching certain spots.
     - #text(red)[Problem:]
-      - Because of the bending, some of the holes for the cross brace do not align. 
+      - Because of the bending, some of the holes for the cross brace do not align.
       - We need to test if the standoffs reduce the bending at the next meeting.
   ],
   stack(
@@ -91,7 +91,7 @@ We are happy that the drivetrain is completed. We are making much more progress 
   yearly-schedule: "On",
   (
     (true, "Build the drivetrain according to today's delegation.", "Everyone"),
-    (true, "Program a versatile driver control system for the drivetrain.", ("Ishika")),
+    (true, "Program a versatile driver control system for the drivetrain.", ("Ishika",)),
     (true, "Test the performance of the drivetrain.", "Everyone"),
   )
 )
@@ -103,12 +103,12 @@ We are worried about the bending at the front of the drivetrain. Not only does t
   recurring: [
     - *Inventory* (Collecting materials from the manifest to build the drivetrain): Eric, Rory, Ishika
     - *Manufacturing* (cutting pieces to size, cleaning sharp edges): Eric
-    - *Oversight & Quality Control*: 
+    - *Oversight & Quality Control*:
     - *Initial Testing*: Everyone
     - *Programming*: Ishika
   ],
   today: [
-    - Reattach the wheel to the drivetrain: 
+    - Reattach the wheel to the drivetrain:
     - Attach the cross brace of the drivetrain: Eric
     - Reexamine the friction of the drivetrain: Eric
   ]

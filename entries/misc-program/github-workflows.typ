@@ -14,7 +14,7 @@
   monthly-schedule: "On",
   yearly-schedule: "Ahead",
   (
-    (true, "Configure GitHub workflows for our program repositories", ("Ishika")),
+    (true, "Configure GitHub workflows for our program repositories", ("Ishika",)),
   )
 )
 

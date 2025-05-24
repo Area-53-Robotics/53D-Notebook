@@ -4,7 +4,7 @@
   title: "Odometry v1 - Hardware",
   type: "brainstorm",
   date: datetime(year: 2024, month: 11, day: 29),
-  attendance: ("Ishika"),
+  attendance: ("Ishika",),
   designed: "Ishika",
   witnessed: "Ishika",
 )

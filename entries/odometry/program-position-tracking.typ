@@ -4,7 +4,7 @@
   title: "Odometry v1 - Position Tracking",
   type: "program",
   date: datetime(year: 2024, month: 11, day: 30),
-  attendance: ("Ishika"),
+  attendance: ("Ishika",),
   designed: "Ishika",
   witnessed: "Ishika",
 )
@@ -18,8 +18,8 @@
   monthly-schedule: "On",
   yearly-schedule: "Off",
   (
-    (true, "Program the position tracking system.", ("Ishika")),
-    (true, "Program the PID algorithms.", ("Ishika")),
+    (true, "Program the position tracking system.", ("Ishika",)),
+    (true, "Program the PID algorithms.", ("Ishika",)),
   )
 )
 
