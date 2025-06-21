@@ -71,7 +71,7 @@
       - First Season: Over Under (2023-24)
       - Builder
     ],
-    team-member(name: "Anders Pyenson", picture: "/assets/members/anders.jpg")[
+    team-member(name: "Anders Pyenson", picture: "/assets/members/anders.png")[
       - Grade: 10
       - First Season: High Stakes (2024-25)
       - Builder

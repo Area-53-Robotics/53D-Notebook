@@ -10,8 +10,8 @@
   organization: "Area 53",
   count: (current: 3, total: 3),
   cover: circle(align(center + horizon)[#image("/assets/logos/logo.svg", width: 110%)], fill: black),
-  year: "2024 - 2025",
-  season: "High Stakes",
+  year: "2025 - 2026",
+  season: "Push Back ",
   innovate: (
     date: datetime(year: 2025, month: 3, day: 8),
     event: "Maryland States Championship",
