@@ -19,8 +19,8 @@
   )
 )
 
-= Time Management
-Now that we are about to start our early season work, we need to have a clear plan for how to move ahead. Accordingly, we took the time to plan out our work for June. We had to keep in mind that some of our members would miss some meetings for their summer activities. Here is what we came up with:
+= Time Management (Pre)
+Now that we are about to start our early season work, we need to have a clear plan for how to move ahead. Accordingly, we took the time to plan out our work for June. We had to keep in mind that some of our members would miss some meetings for their summer activities. We also had to keep in mind the break we would have in the month of July. Here is what we came up with:
 
 #image("gantt-charts/june-pre.png")
 

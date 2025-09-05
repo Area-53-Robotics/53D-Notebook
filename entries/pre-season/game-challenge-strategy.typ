@@ -24,50 +24,54 @@ We experimented with the VRC Hub app to determine what the maximum possible scor
       gray.lighten(30%)
     },
 
-  table.header([Objective], [Rings/Climb Level], [Points]),
+  table.header([Objective], [Number of Blocks], [Points]),
 
-  [Autonomous Bonus], [N/A], [6],
-  [Alliance Wall Stake], [1 Ring], [3],
-  [Wall Stake 1], [1 Ring], [3],
-  [Wall Stake 2], [1 Ring], [3],
-  [Mobile Goal 1], [6 Rings (Positive Modifier)], [16 (8 ring points doubled due to corner modifier)],
-  [Mobile Goal 2], [6 Rings (Positive Modifier)], [16 (8 ring points doubled due to corner modifier)],
-  [Mobile Goal 3], [6 Rings], [8],
-  [Mobile Goal 4], [1 Rings], [3],
-  [Mobile Goal 5], [1 Rings], [3],
-  [Ladder Stake], [1 Ring], [3],
-  [Robot Climb 1], [3rd Level], [14 (12 climb points + 2 ladder stake bonus points)],
-  [Robot Climb 2], [3rd Level], [14 (12 climb points + 2 ladder stake bonus points)],
-  [Total], [], [92]
+  [Autonomous Bonus], [N/A], [10],
+  [First Long Goal], [15 blocks], [45],
+  [Second Long Goal], [15 blocks], [45],
+  [First long goal controlled], [N/A], [10],
+  [Second long goal controlled], [N/A], [10],
+  [Lower center goal], [7 blocks], [21],
+  [Upper center goal ], [7 blocks], [21],
+  [Lower center goal controlled], [N/A], [6],
+  [Upper center goal controlled], [N/A], [8],
+  [2 robots parked], [N/A], [30],
+  [Total], [], [206]
 )
 
 #grid(
   columns: 2,
   align: center + horizon,
-  image("/assets/field-elements/theoretical-maximum-score.png", width: 70%),
+  image("/assets/field-elements/theoretical-maximum-score.png", width: 60%),
   pie-chart(
     radius: 3.3,
     data-type: "pts",
     (
-      ("Auton Bonus", 6),
-      ("Wall Stakes", 9),
-      ("Mobile Goals", 30),
-      ("Corner Modifiers", 16),
-      ("Climb", 24),
-      ("Ladder Stake", 7),
+      ("Auton Bonus", 10),
+      ("Block Scored", 3),
+      ("Controlled Long Goal", 10),
+      ("Controlled Upper Goal", 8),
+      ("Controlled Lower Goal", 6),
+      ("One Parked Robot", 8),
+      ("Two Parked Robots", 30),
     ),
   ),
 )
 
 = Scoring Observations
-- Scoring rings on the mobile goals is the most efficient way to earn points during the game.
-- Climbing is one of the biggest factors in this year's game and getting at least a first tier climb should be a priority.
-- Using the four corners for strategy is very efficient in both doubling the points of your rings and lowering the points of your opponents' rings.
-- The stakes on the top of the ladder and on the walls are hard to reach, but will likely be important tiebreakers in close rounds.
+- The long goals make up a majority of the maximum points possible (53.4% combined).
+  - This means we should definitely prioritize controlling and scoring in these goals.
+- The center goals make up about half as many points as the long goals (27.2% together).
+  - So, we should prioritize them somewhat, but not as much as the long goals.
+- If we manage to park both robots, it makes up about 14.6% of the total, but if only one robot is parked, this decreases to only 3.9%.
+  - Thus, we should only focus on parking if we are sure that both robots will successfully park.
+- Finally, the autonomous bonus only makes up 4.9% of the maximum possible points, which isn’t very much.
+  - However, having a strong autonomous period sets up the field in your favor, so it should still be one of our main targets.
+
 
 = Potential Strategies
-+ In order to achieve the theoretical highest score possible, scoring rings on mobile goals is the fastest method. The most efficient plan would be to entirely load two mobile goals and place them in the positive corners before placing rings on as many wall stakes as possible.
++  Since there is no possession limit, we could potentially steal all of the other alliance’s blocks. This would prevent them from scoring, and allow us to still get points at the end with parking.
 
-+ Elevation is important, the theoretical maximum score is very low this season and almost a third of the maximum possible points are in relation to climbing. We could build a passive clamp so that during the last few seconds of the match, we could easily obtain a tier one climb.
++  We could also consider blocking the other alliance from scoring. If our bots are fast enough, we could push other robots out of the way before they get the chance to score. Additionally, i
 
-+ Since most teams will be rushing for mobile goals we will need a speedy yet powerful robot to take and hold on to goals to score points while having enough space for other important mechanisms.
++ Finally, we could gain control over the goals by scoring blocks in them. If we manage to fill up all (or almost all) of the goals, it would be quite difficult for the other alliance to de-score them.   

@@ -51,6 +51,7 @@
     team-member(name: "Ishika Saha", picture: "/assets/members/ishika.png")[
       - Grade: 11
       - First Season: Over Under (2023-24)
+      - Team Lead
       - Programmer
       - Notebooker
     ],
@@ -75,6 +76,12 @@
       - Grade: 10
       - First Season: High Stakes (2024-25)
       - Builder
+    ],
+    team-member(name: "Samia Saeed", picture: "/assets/members/samia.jpg")[
+      - Grade: 8
+      - First Season: Push Back (2025-26)
+      - Programmer
+      - Notebooker
     ],
   )
 ]

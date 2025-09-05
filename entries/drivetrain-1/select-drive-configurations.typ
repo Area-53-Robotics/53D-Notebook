@@ -3,7 +3,7 @@
 #show: create-entry.with(
   title: "Drivetrain v1 - Drive Configurations",
   type: "select",
-  date: datetime(year: 2024, month: 6, day: 22),
+  date: datetime(year: 2025, month: 8, day: 22),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Makhi",
   witnessed: "Ishika",

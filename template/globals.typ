@@ -21,7 +21,7 @@
 */
 #let first-page-number = 1
 
-#let team-members = ("Ishika", "Makhi", "Eric", "Rory", "Anders")
+#let team-members = ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia")
 
 /*
   0 = Metadata

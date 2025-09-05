@@ -3,7 +3,7 @@
 #show: create-entry.with(
   title: "Drivetrain v1",
   type: "understand",
-  date: datetime(year: 2024, month: 6, day: 16),
+  date: datetime(year: 2025, month: 8, day: 16),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Ishika",
   witnessed: "Eric",

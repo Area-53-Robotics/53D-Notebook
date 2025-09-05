@@ -3,14 +3,14 @@
 #show: create-entry.with(
   title: "Drivetrain v1 - Gear Ratio",
   type: "brainstorm",
-  date: datetime(year: 2024, month: 6, day: 28),
+  date: datetime(year: 2025, month: 8, day: 28),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Makhi",
   witnessed: "Ishika",
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 6, day: 28),
+  date: datetime(year: 2025, month: 8, day: 28),
   monthly-schedule: "Ahead",
   yearly-schedule: "Ahead",
   (
