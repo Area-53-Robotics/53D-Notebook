@@ -10,7 +10,7 @@
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 6, day: 14),
+  date: datetime(year: 2025, month: 6, day: 14),
   monthly-schedule: "On",
   yearly-schedule: "On",
   (

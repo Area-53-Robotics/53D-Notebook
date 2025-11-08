@@ -3,14 +3,14 @@
 #show: create-entry.with(
   title: "Kanban Board",
   type: "management",
-  date: datetime(year: 2024, month: 6, day: 16),
+  date: datetime(year: 2025, month: 6, day: 16),
   attendance: ("Ishika", "Eric", "Rory", "Makhi"),
   designed: "Ishika",
   witnessed: "Ishika",
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 6, day: 16),
+  date: datetime(year: 2025, month: 6, day: 16),
   monthly-schedule: "Ahead",
   yearly-schedule: "Ahead",
   (
@@ -87,7 +87,7 @@ Before beginning construction of our drivetrain, we took some time to evaluate d
 
 #align(center)[
   #figure(
-    image("kanban-board/kanban-board.jpg", height: 30%),
+    image("kanban-board\kaban-board.jpg", height: 30%),
     caption: [Our new Kanban Board!]
   )
 ]

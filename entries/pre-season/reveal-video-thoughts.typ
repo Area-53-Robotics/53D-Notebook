@@ -3,20 +3,20 @@
 #show: create-entry.with(
   title: "Reveal Video Thoughts",
   type: "identify",
-  date: datetime(year: 2024, month: 4, day: 27),
+  date: datetime(year: 2025, month: 5, day: 9),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Ishika",
   witnessed: "Ishika",
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 4, day: 27),
+  date: datetime(year: 2025, month: 5, day: 9),
   (
     (true, "Identify our immediate thoughts and predictions after watching the game reveal.", "Everyone"),
   )
 )
 
-Today marks the beginning of the VRC High Stakes season. 53D had an online watch party to celebrate, after which we discussed our immediate thoughts. The thoughts below are the general thoughts we had after watching, while we plan to do our in-depth analysis of the game rules at our next meeting.
+Today marks the beginning of the VRC Push Back season. 53D had an online watch party to celebrate, after which we discussed our immediate thoughts. The thoughts below are the general thoughts we had after watching, while we plan to do our in-depth analysis of the game rules at our next meeting.
 
 = Ishika
 - 	After watching the game reveal there are a lot of interesting things that pop up during the first watch. The game has a game piece with a very unique shape, it is neither circular nor square but rather multi-dimensional. It is a very interesting shape to incorporate into our future robot designs. I also see that the game is high-scoring having an end game that is not climbing but rather parking making it much easier for even low-level robots. The no-possession limit rule is very helpful in this game due to the huge amount of game elements. The strategy and engineering aspect of this game will be very interesting this year and we must keep looking carefully at the changing metas to develop. 

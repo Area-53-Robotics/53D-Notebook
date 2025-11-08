@@ -19,7 +19,7 @@
     approach: "The most innovative part of the mobile goal rush mechanism is at the end of the mobile goal rush mechanism, which is the clamp. This clamp behaves similar to a fish hook. When we activate the mobile goal rush mechanism, the clamp slides under the mobile goal's base. When we deactivate the clamp, the clamp hooks on the mobile goal's base, allowing us to drag the mobile goal.",
     pages: [
       #set text(size: 12pt)
-      #context {
+      #context { 
         let valid-entries = entries.final().enumerate()
 
         valid-entries = valid-entries.filter(
