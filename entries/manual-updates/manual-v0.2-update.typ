@@ -68,7 +68,7 @@
     During skills matches, we will need to score more blocks than normally to get the control zone bonus.
   ]
 )
-
+#colbreak()
 == Gameplay 
 #table(
   table.header([Change], [Significance]),

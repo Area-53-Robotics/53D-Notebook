@@ -3,14 +3,14 @@
 #show: create-entry.with(
   title: "Game Challenge - Rules Analysis",
   type: "identify",
-  date: datetime(year: 2024, month: 4, day: 30),
+  date: datetime(year: 2025, month: 5, day: 22),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Ishika",
   witnessed: "Ishika",
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 4, day: 30),
+  date: datetime(year: 5, month: 5, day: 22),
   (
     (true, "Analyze the game challenge rules to identify the game objectives for the season.", "Everyone"),
     (true, "Identify strategies to approach the game objectives for the season.", "Everyone"),
@@ -20,7 +20,7 @@
 
 #show image: it => align(center, it)
 
-VRC High Stakes is a 2024-2025 game focusing significantly on collaboration, robot composition, and tactics.
+VRC Push Back is a 2024-2025 game focusing significantly on collaboration, robot composition, and tactics.
 
 = Field
 #image("/assets/field-elements/game-field.png", width: 70%)
@@ -253,7 +253,7 @@ There are multiple categories of rules, each of which apply to different aspects
   - 4. Neither Robot is contacting the Park Zone barrier.
 
 = Match Scoring Summary
-#set text(14pt)
+#set text(8pt)
 #show table.cell.where(y: 0): strong
 
 #table(
@@ -274,7 +274,7 @@ There are multiple categories of rules, each of which apply to different aspects
   [2 Parked Alliance Robots], [30 Points],
 )
 
-#colbreak()
+
 
 = Robot Skills Challenge
 #set text(11pt)
@@ -282,7 +282,7 @@ There are multiple categories of rules, each of which apply to different aspects
   #rotate(
     90deg,
     reflow: true,
-    image("/assets/field-elements/skills-field.png", width: 248pt)
+    image("/assets/field-elements/skills-field.png", width: 118pt)
   )
 ]
 
@@ -295,6 +295,7 @@ Skills is a version of the VEX Robotics Challenge where you score as many points
 + #vex-rule[RSC4] Skills Stop Time
 
 == Robot Skills Challenge Scoring
+#set text(8pt)
 #show table: it => align(center, it)
 #table(
   columns: 2,

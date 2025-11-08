@@ -50,7 +50,7 @@ Another thing we had to keep in mind was that all of Area 53 will likely attend 
 - *Kalahari Classic* 23-Jan-2026 - 24-Jan-2026
 - *Gateway to the West VRC Signature Event:* 28-Jan-2026 - 29-Jan-2026
 
-Because we are attending a Signature Event, Area 53 does not plan to send any teams to the U.S. Open. This means the Push Back season will end for 53D after the state competition if we do not qualify for Worlds. The State Competition will likely be in early March, so our robot must be completed before then.
+This year the Push Back season will end for 53D after the state competition if we do not qualify for Worlds. The State Competition will likely be in early March, so our robot must be completed before then.
 
 Taking all of the above factors into consideration, we created a Gantt chart for the High Stakes season:
 
