@@ -19,11 +19,11 @@ jobs:
     steps:
       # Checks the virtual machine out of the repository so the workflow can access it through commands
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v5.0.1
 
       # Installs Typst onto the virtual machine so that it can compile the notebook
       - name: Install Typst
-        uses: typst-community/setup-typst@v4.0.2
+        uses: typst-community/setup-typst@v4.3.0
 
       # Compiles the notebook
       - name: Compile Notebook
@@ -31,7 +31,7 @@ jobs:
           
       # Uploads the rendered PDF to GitHub
       - name: Upload PDF File
-        uses: actions/upload-artifact@v4.6.0
+        uses: actions/upload-artifact@v5.0.0
         with:
           name: notebook
           path: main.pdf
