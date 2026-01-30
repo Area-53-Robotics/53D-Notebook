@@ -3,79 +3,133 @@
 #show: create-entry.with(
   title: "Overall Robot Plan v1",
   type: "brainstorm",
-  date: datetime(year: 2024, month: 6, day: 14),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
+  date: datetime(year: 2025, month: 6, day: 13),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
   designed: "Ishika",
-  witnessed: "Anders",
+  witnessed: "Samia",
 )
 
 Every member on 53D used the analysis in our #entry-reference(type: "identify", title: "Game Challenge - Strategy Analysis") to brainstorm an overall robot idea.
 
 
-#colbreak()
-
 #pro-con(
   name: "Makhi",
-  image: image("brainstorm/makhi-robot-idea.excalidraw.svg"),
+  image: image("brainstorm/makhi-idea.png"),
   description: [
-    A two wheel drive, flex wheel intake to store the rings in chassis, a plunger like arm that can stick onto the rings and score them onto the rings.
+    This design uses an escalator system where the blocks travel upwards from the intake to the first level of goals and there is a piston to move the intake up to the second level of goals. There is a kicker that is used to descore the blocks along with a fast, efficient drivetrain. 
   ],
   pros: [
-    - *Rings* - The plunger system deposits rings onto stakes quickly, making it easier to score points and get top ring bonuses.
+    - Has a very efficient descore mechanism
+    - Faster scoring mechanism 
+
   ],
   cons: [
-    - *Lacking Torque* - The lack of bulk on the robot makes it easy to push around
-    - *Intake Joints* - The extra joints on the intake give it more possible points for failure
-    - *Front Loaded* - The center of gravity shifts forwards when the intake is extended, increasing the possibility of the bot tipping over.
-  ],
+    - No storage space
+    - Can rely too heavily on air 
+  ], 
+  notes: [
+    - The robot is a very efficient and accurate design but depending on how the idea is executed can cause problems. 
+  ]
 )
 
 // #colbreak()
 
 #pro-con(
   name: "Ishika",
-  image: image("brainstorm/ishika-robot-idea.excalidraw.svg"),
+  image: image("brainstorm/ishika-idea.png"),
   description: [
-    A three wheel drive, a pneumatic clamp for mobile goals, an plunger to pick up rings, a pneumatic arm for hang.
+    This design incorporates the use of a basket keeping in mind of there being no limit to the amount of blocks that are allowed to be possessed. There is an elevator type intake that takes into consideration the different heights of the different goals and is very efficient in scoring. There is also a loader mech that allows us to take out blocks from the loaders, efficiently and smoothly.  
   ],
   pros: [
-    - *Quick Cycling* - The lightness of the bot combined with the simplicity of the intake will make it efficient at scoring rings on mobile goals.
-    - *Drivetrain Space* - There are no subsystems near the center of the drivetrain, so we can use that space for sensors.
+    - The ability to store a lot of a blocks at the same time.
+    - Very efficient to use during high-speed matchplay. 
   ],
   cons: [
-    - *Weak Climb* - Using pneumatics for the climb mechanism may not produce enough force to consistently climb.
+    - Cannot go under the goals 
+    - Can be time consuming if the intake is not tuned properly. 
   ],
+  notes: [
+    - The most important aspect of this robot is the tuning, as if the tuning on the intake isn’t right it will become a huge hindrance during matches. 
+  ]
 )
 
 #colbreak()
 
 #pro-con(
   name: "Eric",
-  image: image("brainstorm/eric-robot-idea.excalidraw.svg"),
+  image: image("brainstorm/eric-idea.excalidraw.svg"),
   description: [
-    A 4 wheel drive, a conveyor that picks up ring and drop it into the mobile goal, a clamp to secure the mobile goal.
+    The intake is designed to move up and down to reach all the goals. A set of wheels at the front allows of easy matchload intaking
   ],
   pros: [
-    - *Compact* - There are no extendable subsystems, so the robot stays compact and lithe.
-    - *Electronics Placement* - The electronics are all in safe places, while also being mostly close to the robot's center of gravity.
+    - Considers space for electronics and sets them in good places
+    - Matchloading capability
   ],
   cons: [
-    - *Accessibility* - Hard to access the interior of the robot for fixes and tuning.
-    - *No Climb* - There is no climbing mechanism, preventing us from getting climb points and ladder stake points.
+    - Air usage 
+    - Heavy
   ],
+  notes: [
+    - The robot relies more on the use of pistons than the use of motors which can be either beneficial or consequential. 
+  ]
 )
 
 #pro-con(
   name: "Rory",
-  image: image("brainstorm/rory-robot-idea.excalidraw.svg"),
+  image: image("brainstorm/rory-idea.png"),
   description: [
-    A 4 wheel drive, an adjustable conveyor with a passive hang on the end, an conveyor that picks up rings and a pneumatic mobile goal clamp.
+    This design uses a two stage intake with a redirect mechanism. The drivetrain has eight wheels, with four on each side. The first stage of the intake uses four flexwheels to pick up the blocks, while a laddered intake made up of sprockets and rubber bands. Once blocks go up through the intake, they go through the redirect mechanism which can make the blocks go into either the top or middle goal based on which way a flex wheel is spinning.
   ],
   pros: [
-    - *Electronics Placement* - Most of the electronics are all in safe places, while also being mostly close to the robot's center of gravity.
-    - *Light* - Because the climb mechanism and intake are combined into one mechanism, the robot is light, making it easier to climb.
+    - The laddered intake is very organized and efficient. 
+    - Very accurate
   ],
   cons: [
-    - *Ring Clearance* - It will be hard for the rings on the intake to get over the climb mechanism and radio.
+    - No storage space
+    - Very hard to tune
   ],
+  notes: [
+    - This idea is very complicated to execute but if executed properly can be very accurate during fast matchplay.
+  ]
+)
+#colbreak()
+#pro-con(
+  name: "Anders",
+  image: image("brainstorm/Anders-Vex-Push-Back-Robot-Sketch.excalidraw.svg"),
+  description: [
+    My robot uses a unique design with a rotating loader/storage area. In the front, there are two flex wheels which can pick up blocks from loaders or just lying on the ground. Blocks are then stored in a rectangular prism, where they can then be moved upwards with the help of a piston. Finally, another piston will push the blocks out into a goal, scoring them and ejecting blocks out on the other end.
+  ],
+  pros: [
+    - Ability to store many blocks
+    - The order of blocks remains consistent
+
+  ],
+  cons: [
+    - Limited storage
+    - Limited movement by the pneumatic air tank
+  ], 
+  notes: [
+    - Both pistons could be replaced by racks and pinions powered by electric motors. 
+  ]
+)
+
+#pro-con(
+  name: "Samia",
+  image: image("brainstorm/samia-idea.excalidraw.svg"),
+  description: [
+    This design uses rotating flex wheels to intake the blocks, and to outtake on the lower stage goals in the middle. The blocks remain in the same respective position while in the robot. To score into the middle and upper goals, there is a piston to score into both.  Finally, there’s a descore mech at the top to score blocks for control bonuses and removing blocks from goals.  
+
+  ],
+  pros: [
+    - More direct intake
+    - Order of blocks stays the same
+
+  ],
+  cons: [
+    - Limited storage
+    - Can’t go under long goals 
+  ], 
+  notes: [
+    - The piston could be replaced so that scoring into medium goals is easier 
+  ]
 )

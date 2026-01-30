@@ -54,7 +54,7 @@
     marker: []
   )
 
-  - #icon("folder-root") 53D_HighStakes #line-fill The root folder of the repository
+  - #icon("folder-root") 53D_PushBack #line-fill The root folder of the repository
     - #icon("folder-cog") .github #line-fill Config files for our GitHub workflows
     - #icon("folder-cog") firmware #line-fill PROS firmware code
     - #icon("folder-open") include #line-fill C++ header files
@@ -62,20 +62,16 @@
       - #icon("folder") liblvgl #line-fill LVGL header files
       - #icon("folder") pros #line-fill PROS header files
       - #icon("folder-open") subsystemHeaders #line-fill Individual subsystem headers
-        - #icon(color: purple, "brand-cpp") ladybrown.hpp
         - #icon(color: purple, "brand-cpp") pneumatics.hpp
       - #icon(color: purple, "brand-cpp") api.h
       // - #icon(color: purple, "brand-cpp") autonomous.hpp
       // - #icon(color: purple, "brand-cpp") autonSelector.hpp
-      - #icon(color: purple, "brand-cpp") chassis.hpp
       - #icon(color: purple, "brand-cpp") global.hpp
       - #icon(color: purple, "brand-cpp") main.h
     - #icon("folder-open") #program-folder(name: "src", num: 1, bold: true, under: true)[Competition code for the robot]
       - #icon("folder-open") #program-folder(name: "subsystemFiles", num: 2, bold: true, under: false)[Individual subsystem code]
-        - #icon(color: blue, "brand-cpp") #program-file(name: "ladybrown.cpp", label: <ladybrown.cpp>)[Ladybrown code and helper functions]
-        - #icon(color: blue, "brand-cpp") #program-file(name: "pneumatics.cpp", label: <pneumatics.cpp>)[Clamp, ring rush, and goal rush code]
+        - #icon(color: blue, "brand-cpp") #program-file(name: "pneumatics.cpp", label: <pneumatics.cpp>)[Intake Height code, Loader Code]
       - #icon(color: blue, "brand-cpp") #program-file(name: "autonomous.cpp", label: <autonomous.cpp>)[Autonomous period program]
-      - #icon(color: blue, "brand-cpp") #program-file(name: "chassis.cpp", label: <chassis.cpp>)[Autonomous robot movement functions]
       - #icon(color: blue, "brand-cpp") #program-file(name: "global.cpp", label: <global.cpp>)[Global object declarations such as motors]
       - #icon(color: blue, "brand-cpp") #program-file(name: "main.cpp", label: <main.cpp>)[Robot initialization, disabled period, and driver control code]
       // - #icon(color: blue, "brand-cpp") #program-file(name: "opcontrol.cpp", label: <opcontrol.cpp>)[Driver control period code]

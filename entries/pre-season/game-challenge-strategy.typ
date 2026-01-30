@@ -3,10 +3,10 @@
 #show: create-entry.with(
   title: "Game Challenge - Strategy Analysis",
   type: "identify",
-  date: datetime(year: 2024, month: 4, day: 30),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Ishika",
+  date: datetime(year: 2024, month: 5, day: 23),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Makhi",
 )
 
 = Theoretical Maximum Score

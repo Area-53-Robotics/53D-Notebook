@@ -3,12 +3,19 @@
 #show: create-entry.with(
   title: "Game Manual v1.0 Update",
   type: "identify",
-  date: datetime(year: 2025, month: 6, day: 27),
-  attendance: ("Ishika", "Makhi", "Rory", "Eric"),
-  designed: "Ishika",
-  witnessed: "Ishika",
+  date: datetime(year: 2025, month: 6, day: 28),
+  attendance: ("Ishika", "Makhi", "Rory", "Eric", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Makhi",
 )
-
+#to-do(
+  date: datetime(year: 2025, month: 6, day: 28),
+  monthly-schedule: "Ahead",
+  yearly-schedule: "Ahead",
+  (
+    (true, "Identify changes made to the rules manual and how they affect our gameplay.", "Everyone"),
+  ),
+)
 
 #set table(
   columns: 2,
@@ -53,7 +60,7 @@
   
 )
 
-
+#colbreak()
 == Important Q&As
 
 

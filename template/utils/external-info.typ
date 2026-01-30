@@ -20,7 +20,7 @@
 
   entry-list
 }
-
+//set this as false to remove back list
 #let signature-list(chronological: true) = {
   context {
     if chronological == false {
@@ -54,7 +54,7 @@
                 } else {
                   last-page = [END]
                 }
-
+                
                 #first-page - #last-page,
               ]
             },

@@ -4,9 +4,9 @@
   title: "Drivetrain v1 - Wheel Types",
   type: "brainstorm",
   date: datetime(year: 2025, month: 8, day: 09),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Rory",
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Makhi",
+  witnessed: "Samia",
 )
 
 #to-do(

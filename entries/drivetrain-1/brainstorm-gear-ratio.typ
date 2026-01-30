@@ -4,9 +4,9 @@
   title: "Drivetrain v1 - Gear Ratio",
   type: "brainstorm",
   date: datetime(year: 2025, month: 8, day: 15),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Makhi",
-  witnessed: "Ishika",
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Eric",
 )
 
 #to-do(

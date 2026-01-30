@@ -3,16 +3,16 @@
 #show: create-entry.with(
   title: "Drivetrain v1",
   type: "identify",
-  date: datetime(year: 2025, month: 8, day: 26),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
+  date: datetime(year: 2025, month: 8, day: 02),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
   designed: "Ishika",
-  witnessed: "Ishika",
+  witnessed: "Makhi",
 )
 
 Our team spent a lot of time talking and planning the foundation of our robot: the drivetrain. The drivetrain's shape determines what other subsystems we can build in the future, making it critical. However, before getting into the technical aspects, we figured out how the drivetrain fits into our overall game plan, ensuring it helps us do well in the competition.
 
 #figure(
-  image("identify-drivetrain.excalidraw.svg", width: 50%),
+  image("drivetrain-identify.excalidraw.svg", width: 50%),
   caption: "The drivetrain allows us to traverse the field. We can go straight, back, left, right, and freely move in any direction. We can also use the drivetrain to get across the middle ladder."
 )
 

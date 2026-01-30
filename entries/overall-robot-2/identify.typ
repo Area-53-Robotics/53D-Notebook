@@ -1,17 +1,17 @@
 #import "/template/template.typ": *
 
 #show: create-entry.with(
-  title: "Overall Robot Plan v3",
+  title: "Overall Robot Plan v2",
   type: "identify",
-  date: datetime(year: 2024, month: 10, day: 25),
-  attendance: ("Ajibola", "Jin", "Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Makhi",
+  date: datetime(year: 2025, month: 10, day: 17),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Ishika",
   witnessed: "Rory",
 )
 
 
 #to-do(
-  date: datetime(year: 2024, month: 10, day: 25),
+  date: datetime(year: 2025, month: 10, day: 17),
   monthly-schedule: "Off",
   yearly-schedule: "Ahead",
   (
@@ -20,49 +20,51 @@
   )
 )
 
-The previous bot had issues scoring and was unsuitable for high-level matchplay. Reviewing the footage, and results from our scrimmage we realized that some changes had to be made to the robot. We researched into overseas teams, events, and more to find inspiration on something that would work for our team. We found that many high level bots had many features that allows them to score faster, and more accurately. So, we chose to incorporate that into our own robot, we wanted a robot that could go under the bar and had more accurate scoring.  
-
+The previous bot had issues scoring and was unsuitable for high-level matchplay. Reviewing the footage, and results from our scrimmage we realized that some changes had to be made to the robot. We researched overseas teams, events, and more to find inspiration on something that would work for our team. We found that many high level bots had many features that allows them to score faster, and more accurately. So, we chose to incorporate that into our own robot, we wanted a robot that could go under the bar and had more accurate scoring. One of the main teams we based our ideas off of was 8889A Highlander. 
 #pro-con(
   name: "Original Idea",
-  image: image(""), 
+  image: image("ishika-idea.png"), 
   description: [ ],
   pros: [
-    - *Ring Scoring* - Able to score two rings at a time.
+    - *Storage* - Takes into consideration storage space for the blocks to make it easier to score consistently during a match.
+    - *Center of Gravity* - The connection of the basket intake to the actual hopper basket is evenly spaced giving the robot good center of gravity. 
   ], 
   cons: [
-    - *Efficiency* - Very slow at intaking rings into the redirect mechanism.
-    - *Speed* - The redirect mechanism was slow at scoring the rings onto the wall stake.
-    - *Weight* - The redirect mechanism took up most of the robot's space. The extra weight decreased our acceleration.
+    - *Efficiency* -  Very hard to correctly orient the blocks leading to less efficiency in the scoring of the blocks.
+    - *Speed* - The robot was slow in receiving the blocks into the robots and then scoring them onto goals, which was a due to the lack speed of the basket intake and hopper.   
+    - *Complexity* - This design became more complex than as expected, leading to continuous tuning and inconsistent results. 
   ]
 )
 
-#colbreak()
+//#colbreak()
 
 #pro-con(
   name: "New Idea",
-  image: image(""), 
+  image: image("identify-overall-robotv2.excalidraw.svg"), 
   description: [ ],
   pros: [
-    - *Center of Gravity* - Due to the placement of the ladybrown's support towers, the robot will have a better center of gravity.
-    - *Speed* - Since the ladybrown can collect rings directly from the intake, it eliminates the time needed for the rings to position themselves into the basket.
-    - *Weight* - More simple and requires less materials to build.
+    - *Accuracy* - This design will lead to more accuracy in the scoring of the blocks as the robot can lead the blocks more efficiently into goals, and line up with them well. 
+    - *Speed* - Since the ramp of the intake is a smooth terrain to travel on it eliminates the amount of friction the blocks may get and so the time needed for the blocks to go into the goals is decreased.
+    - *Compactness* - The weight of the robot is much lighter due to the compactness of the robot and makes it much easier for the driver to maneuver. This includes having the benefit of being able to go under the goals.
   ], 
   cons: [
-    - *Ring Scoring* - Can only score one ring at a time.
-    - *Resource Management* - The pivot for the ladybrown will require us to cut a gear in half. This will cause permanent damage to the gear.
+    - *Storage* - This robot does not leave any space for blocks and is much more compact than any other design. 
+    - *Air Usage* - The robot heavily relies on pistons to be able to move the upper level of the intake to match the goal height which results in a excessive reliance on air/pneumatics.  
   ]
 )
 
 = New Design Goals & Constraints
 #goals-constraints(
   goals: [
-    - The robot should weigh less than 14 pounds. A lighter robot would allow us to accelerate faster.
-    - The robot should have the ability to score on the alliance wall stakes. This is important for auton win points.
-    - The ladybrown can score on the wall stakes more efficiently than the redirect mechanism
+    - The robot should be able to accurately score a continuous amount of blocks on any level goal height. 
+    - The robot should have the ability to maneuver around any obstacles in a swift and timely manner, including being able to go underneath the high goal. 
+    - The robot should have the ability to take blocks from the loader in a swift and efficient manner which allows for better matchplay and use for strategy.
   ],
   constraints: [
-    - #vex-rule[R4] Robots must fit within an 18" x 18" x 18" volume
-    - #vex-rule[R13] Motors are limited to a combined power of 88W
-    - #vex-rule[SG6] Possession is limited to two Rings and one Mobile Goal
+    - #vex-rule[R5] Robots must fit within an 18" x 18" x 18" volume
+    - #vex-rule[R12] Motors are limited to a combined power of 88W
+    - #vex-rule[R25] Each Robot is limited to a maximum of 12 individual pieces of plastic, each one no larger than 4” x 8” x 0.070”.
+    - #vex-rule[] Robots may use a maximum of two (2) legal VEX pneumatic air reservoirs on a Robot and each may be charged to a maximum of 100 psi.
+    - #vex-rule[SG6] A Robot may carry, push, or plow an unlimited number of Blocks.
   ],
 )

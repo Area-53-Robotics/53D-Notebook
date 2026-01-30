@@ -3,10 +3,10 @@
 #show: create-entry.with(
   title: "High Stakes Season Planning",
   type: "management",
-  date: datetime(year: 2024, month: 4, day: 30),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
+  date: datetime(year: 2024, month: 5, day: 30),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
   designed: "Ishika",
-  witnessed: "Ishika",
+  witnessed: "Rory",
 )
 
 #show table: it => align(center)[#it]
@@ -20,7 +20,7 @@ Before beginning our early season brainstorming, we decided to make a general ti
 - *Early Season* - Includes the spring & summer months after the game reveal (May - September), during which scrimmages occur while tournaments do not
 - *Mid Season* - Includes the fall & early winter months (October - December) when state competition qualifying tournaments begin
 - *Late Season* - Includes the late winter months (January - April) when state competition qualifying tournaments end, and the state & world competitions occur
-
+#colbreak()
 We also have a general idea of when tournaments will take place by looking at patterns from previous years. This will help us estimate at what times we need to have our robot ready:
 
 #table(
@@ -59,7 +59,7 @@ Taking all of the above factors into consideration, we created a Gantt chart for
 #admonition(type: "note")[
   We plan to adjust this Gantt chart as the season goes on depending on new deadlines that arise.
 ]
-
+#colbreak()
 = Budget & Materials Management
 After creating our season timeline, we obtained information on our organization's budget to get an idea of what our expenses for the season will look like.
 
@@ -78,7 +78,7 @@ Total Area 53 Organization Budget: \$27549.55
   [VEX Annual Squad Registration], [\$1,100.00],
   [Parts, tools, and supplies for building robots.], [\6,000.00],
   [Event registration (local, signature, state championship)], [\$4,500.00],
-  [Food], [\$1,500.57],
+  [Food], [\$1,500.00],
   [Beltway Battle tournament at Eleanor Roosevelt], [\$3,450.00],
   [Team apparel], [\$1,000.00],
   [Misc. supplies, team-building costs, and administrative costs], [\$760.00],

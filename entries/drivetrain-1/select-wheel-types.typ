@@ -4,19 +4,11 @@
   title: "Drivetrain v1 - Wheel Types",
   type: "select",
   date: datetime(year: 2025, month: 8, day: 09),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Eric",
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Makhi",
+  witnessed: "Samia",
 )
 
-#to-do(
-  date: datetime(year: 2025, month: 8, day: 09),
-  monthly-schedule: "Ahead",
-  yearly-schedule: "Ahead",
-  (
-    (true, "Select the best wheel configurations for the tank drive using a decision matrix.", "Everyone"),
-  )
-)
 
 Different wheel configurations can have very different purposes. To determine which wheel configuration would be best for us to use, we created an unweighted and a weighted decision matrix.
 

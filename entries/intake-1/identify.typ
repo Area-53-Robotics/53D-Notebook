@@ -5,11 +5,20 @@
   type: "identify",
   date: datetime(year: 2025, month: 8, day: 30),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Ishika",
+  designed: "Eric",
+  witnessed: "Rory",
+)
+#to-do(
+  date: datetime(year: 2025, month: 8, day: 30),
+  monthly-schedule: "Ahead",
+  yearly-schedule: "Ahead",
+  (
+    (true, "Identify the goals and constraints of the intake mechanism for this season.", "Everyone"),
+    (true, "Understand the mathematical and engineering principles behind the creation of the intake", "Everyone"),
+  )
 )
 
-Today we had an online meeting, during which we discussed the implementation of an intake and identified the needs, goals, and constraints for this mechanism.
+Today we had a meeting, during which we discussed the implementation of an intake and identified the needs, goals, and constraints for this mechanism.
 
 #figure(
   image("Identify-intake.excalidraw.svg", width: 50%),

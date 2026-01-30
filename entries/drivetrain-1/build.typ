@@ -3,10 +3,10 @@
 #show: create-entry.with(
   title: "Drivetrain v1",
   type: "build",
-  date: datetime(year: 2024, month: 7, day: 26),
-  attendance: ("Anders", "Ishika", "Rory", "Eric", "Samia"),
+  date: datetime(year: 2025, month: 8, day: 16),
+  attendance: ("Anders", "Makhi", "Ishika", "Rory", "Eric", "Samia"),
   designed: "Anders",
-  witnessed: "Rory",
+  witnessed: "Makhi",
 )
 
 
@@ -17,14 +17,6 @@
 )
 
 = 2025/08/16
-#to-do(
-  date: datetime(year: 2025, month: 8, day: 16),
-  monthly-schedule: "On",
-  yearly-schedule: "On",
-  (
-    (true, "Build the drivetrain according to today's delegation.", "Everyone"),
-  )
-)
 
 Today we built both sides of the drivetrain chassis and tested the spacing. We then connected both sides with bracing and added the two towers in the front of the robot. We determined that the sides of the drivetrain are wider than they need to be, so they could be compressed from six to five holes wide.
 
@@ -46,10 +38,6 @@ Today we built both sides of the drivetrain chassis and tested the spacing. We t
 
 == Build Process
 #grid(
-  figure(
-    image("build/2024.07.26-1.jpg", width: 150pt),
-    caption: "The materials for the drivetrain"
-  ),
   [
     === Materials
     - C-Channel
@@ -60,20 +48,11 @@ Today we built both sides of the drivetrain chassis and tested the spacing. We t
     - Spacers
 
   ],
-)
-
-
-#grid(
   stack(
-    spacing: 10pt,
-    figure(
-      image("build/2024.07.26-4.jpg", width: 175pt),
-      caption: "The wheels and gears. The gears are directly screwed to the wheels."
-    ),
-    figure(
-      image("build/2024.07.26-5.jpg", width: 150pt),
-      caption: "The motors"
-    )
+    spacing: 10pt, 
+  figure(
+    image("build/2025.8.16-1.png", width: 100pt),
+    caption: "Drivetrain chassis"
   ),
   [
     === Assembly: Drivetrain
@@ -81,36 +60,23 @@ Today we built both sides of the drivetrain chassis and tested the spacing. We t
     - Make sure the spacing is correct and the wheels fit.
 
   ],
+  ),
+),
+  #grid(
+  figure(
+    image("build/2025.8.16-2.png", width: 100pt),
+  ),
   [
     === Troubleshooting
     - Vigorously tested the security of the bracing
   ]
 )
 
-#grid(
-  figure(
-    image("build/2024.07.26-6.jpg"),
-    caption: "Unfinished drive half"
-  ),
-  figure(
-    image("build/2024.07.26-7.jpg"),
-    caption: "The rubber bands tensioning the drivetrain together"
-  )
-)
-
 #colbreak()
 
 = 2025/08/22
-#to-do(
-  date: datetime(year: 2025, month: 8, day: 22),
-  monthly-schedule: "On",
-  yearly-schedule: "On",
-  (
-    (true, "Build the drivetrain according to today's delegation.", "Everyone"),
-  )
-)
 
-Today we continued the onerous process–like Odysseus fighting in a decades-long war–of constructing our drivetrain, the foundational backbone of our entire bot. This required the utmost concentration and focus, because any inadvertent mistake would have compounded effects on all the systems built upon it.
+We continued to construct our drivetrain structure, which required the utmost concentration and focus, because any inadvertent mistake would have compounded effects on all the systems built upon it.
 
 == Delegation
 #delegation(
@@ -128,8 +94,8 @@ Today we continued the onerous process–like Odysseus fighting in a decades-lon
 == Build Process
 #grid(
   figure(
-    image("build/2024.07.27-1.jpg", width: 150pt),
-    caption: "The spacer that we sanded down to cut"
+    image("build/2025.8.22-1.png", width: 100pt),
+    caption: "The bracing on the structure of the drivetrain"
   ),
   [
     === Materials
@@ -140,17 +106,6 @@ Today we continued the onerous process–like Odysseus fighting in a decades-lon
 
   ],
 )
-
-#grid(
-  figure(
-    image("build/2024.07.27-2.jpg", width: 175pt),
-    caption: "The ziptied bearing blocks"
-  ),
-  figure(
-    image("build/2024.07.27-3.jpg", width: 200pt),
-    caption: "A screwjoint"
-  )
-)
 #grid(
   [
     === Assembly: Drivetrain
@@ -160,8 +115,8 @@ Today we continued the onerous process–like Odysseus fighting in a decades-lon
 
   ],
   figure(
-    image("build/2024.07.27-4.jpg", width: 80pt),
-    caption: "Completed right drive half"
+    image("build/2025.8.22.png", width: 80pt),
+    caption: "Completed drivetrain structure"
   ),
 )
 

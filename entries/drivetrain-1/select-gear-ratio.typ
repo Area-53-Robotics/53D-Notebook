@@ -4,18 +4,9 @@
   title: "Drivetrain v1 - Gear Ratio",
   type: "select",
   date: datetime(year: 2025, month: 8, day: 15),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Rory",
-  witnessed: "Ishika",
-)
-
-#to-do(
-  date: datetime(year: 2025, month: 8, day: 15),
-  monthly-schedule: "Ahead",
-  yearly-schedule: "Ahead",
-  (
-    (true, "Select the best gear ratio for the tank drive using a decision matrix.", "Everyone"),
-  )
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Eric",
 )
 
 #decision-matrix-criteria[
@@ -47,5 +38,5 @@
 )
 
 #admonition(type: "select", title: "Final Selection")[
-  We are looking for a drivetrain that has a good balance of speed and torque. We need the speed to get around the field and score as many blocks as possible. We need the torque to push back enemy bots trying to score and also to get into the parking area to park. Additionally, since our drivetrain is going to be lighter than last year’s drivetrain, we also want a drivetrain that works well at high speeds. None of the gear ratio above perfectly fit what we needed so we decided to do a combination of a 600 RPM drivetrain on 3.25” wheels. This works best with all criteria and they compliment each other as we have seen from the selected values on the table. 
+  We are looking for a drivetrain that has a good balance of speed and torque. We need the speed to get around the field and score as many blocks as possible. We need the torque to push back enemy bots trying to score and also to get into the parking area to park. Additionally, since our drivetrain is going to be lighter than last year’s drivetrain, we also want a drivetrain that works well at high speeds. For these reasons, we chose the 600 RPM on 3.25” wheels.
 ]

@@ -8,15 +8,15 @@
 #show: notebook.with(
   team: "53D",
   organization: "Area 53",
-  count: (current: 3, total: 3),
+  count: (current: 1, total: 1),
   cover: circle(align(center + horizon)[#image("/assets/logos/logo.svg", width: 110%)], fill: black),
   year: "2025 - 2026",
   season: "Push Back ",
   innovate: (
-    date: datetime(year: 2025, month: 3, day: 8),
-    event: "Maryland States Championship",
-    description: "Our mobile goal rush mechanism gives us significant advantages in a match. First, with its extended reach, we can grab a mobile goal from the autonomous line before the opposing team has a chance to take it, while also interfering with the enemy alliance's autonomous route by disrupting the mobile goal. Second, the mobile goal rush mechanism would allow us to clamp onto mobile goals that the enemy team posses. We can pull the mobile goal from their clamp or pull them out of the corner.",
-    approach: "The most innovative part of the mobile goal rush mechanism is at the end of the mobile goal rush mechanism, which is the clamp. This clamp behaves similar to a fish hook. When we activate the mobile goal rush mechanism, the clamp slides under the mobile goal's base. When we deactivate the clamp, the clamp hooks on the mobile goal's base, allowing us to drag the mobile goal.",
+    date: datetime(year: 2025, month: 12, day: 22),
+    event: "Sugar Rush",
+    description: "Our robot has a structure that allows us to pass under the higher/long/side goals. This gives us greater mobility and the ability to pick up blocks that are in locations that we previously couldn't pick them up from. These benefits let us score more points and move around and avoid robots faster and more easily. The structure of our robot also allows us to extend our intake to score on the higher/long/side goals.",
+    approach: "The part of our structure that benefits us the most is the upper intake being extendable to reach higher. The rest of the structure is also low enough that this can safely pass under the goals and still gives us space for other robot functions and good ability to reach in and fix stuff better than we could previously even with a compact system.",
     pages: [
       #set text(size: 12pt)
       #context { 
@@ -24,7 +24,7 @@
 
         valid-entries = valid-entries.filter(
           entry => {
-            entry.last().title.match("Goal Rush Mechanism v1") != none
+            entry.last().title.match("Intake v2") != none
           }
         )
 

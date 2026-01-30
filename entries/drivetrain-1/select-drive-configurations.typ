@@ -4,9 +4,9 @@
   title: "Drivetrain v1 - Drive Configurations",
   type: "select",
   date: datetime(year: 2025, month: 8, day: 08),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Makhi",
-  witnessed: "Ishika",
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Eric",
+  witnessed: "Rory",
 )
 
 After brainstorming different drive configurations, we had to pick one to begin building. This will be a very important decision as it will determine what we can build in the future. As such, we identified as much criteria as possible to make an accurate judgement.
@@ -42,5 +42,6 @@ After brainstorming different drive configurations, we had to pick one to begin 
 )
 
 #admonition(type: "select", title: "Final Selection")[
-  A tank drive configuration meets the most of the criteria we identified for the what we need in a drive configuration. In addition, we are the most familiar with tank drive, and it allows us to get the most speed and acceleration without sacrificing torque. The flexibility it offers will be useful later in the season when we likely have to rebuild subsystems.
+  Since this game’s field will be more open, much like High Stakes, we predict that we would not need as much torque. Instead, we plan to use the open field to our advantage and are particularly looking for a drivetrain type that has a good balance of acceleration and speed. However, we still believe that having enough torque to push away opponent’s bots from scoring on the wall stakes and defending our own mobile goals. We picked tank drive as it is a drivetrain that we are the most familiar with, and allows us to get the most speed and acceleration without sacrificing torque. 
+
 ]

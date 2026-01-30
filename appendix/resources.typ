@@ -9,7 +9,7 @@
 
 We utilized many resources throughout the season. Here is the complete list of them:
 
-+ VEX Game Manual: https://www.vexrobotics.com/over-under-manual
++ VEX Game Manual: https://www.vexrobotics.com/push-back-manual
 + PROS V4 Documentation/API: https://purduesigbots.github.io/pros-doxygen-docs/index.html
 + LemLib Documentation/API: https://lemlib.github.io/LemLib/
 + Public BLRS VEX Wiki: https://wiki.purduesigbots.com/

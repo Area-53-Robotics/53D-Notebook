@@ -4,9 +4,9 @@
   title: "Pre-Reveal Reflection",
   type: "identify",
   date: datetime(year: 2025, month: 4, day: 26),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders",),
   designed: "Ishika",
-  witnessed: "Ishika",
+  witnessed: "Eric",
 )
 
 #to-do(

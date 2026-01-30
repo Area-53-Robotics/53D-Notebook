@@ -4,13 +4,13 @@
   title: "Game Challenge - Rules Analysis",
   type: "identify",
   date: datetime(year: 2025, month: 5, day: 22),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Ishika",
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Makhi",
 )
 
 #to-do(
-  date: datetime(year: 5, month: 5, day: 22),
+  date: datetime(year: 2025, month: 5, day: 22),
   (
     (true, "Analyze the game challenge rules to identify the game objectives for the season.", "Everyone"),
     (true, "Identify strategies to approach the game objectives for the season.", "Everyone"),
@@ -225,8 +225,8 @@ There are multiple categories of rules, each of which apply to different aspects
     + #vex-rule[GG8] Keep your Robots together..
     + #vex-rule[GG9] Don’t clamp your Robot to the Field.
     + #vex-rule[GG14] Don’t destroy other Robots.
-    + #vex-rule [GG15] Offensive Robots get the “benefit of the doubt.”
-    + #vex-rule [GG17] No Holding for more than a 5-count
+    + #vex-rule[GG15] Offensive Robots get the “benefit of the doubt.”
+    + #vex-rule[GG17] No Holding for more than a 5-count
   ],
 )
 

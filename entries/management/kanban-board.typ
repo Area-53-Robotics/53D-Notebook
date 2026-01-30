@@ -3,24 +3,22 @@
 #show: create-entry.with(
   title: "Kanban Board",
   type: "management",
-  date: datetime(year: 2025, month: 6, day: 16),
-  attendance: ("Ishika", "Eric", "Rory", "Makhi"),
-  designed: "Ishika",
+  date: datetime(year: 2025, month: 8, day: 23),
+  attendance: ("Ishika", "Eric", "Rory", "Makhi", "Samia", "Anders"),
+  designed: "Samia",
   witnessed: "Ishika",
 )
 
 #to-do(
-  date: datetime(year: 2025, month: 6, day: 16),
+  date: datetime(year: 2025, month: 8, day: 23),
   monthly-schedule: "Ahead",
   yearly-schedule: "Ahead",
   (
     (true, "Evaluate our current project workflow to identify possible improvements.", "Everyone"),
-    (true, "Identify the design goals and constraints for the drivetrain.", "Everyone"),
-    (true, "Determine the mathematical and scientific concepts involved in drivetrain design.", "Everyone"),
+    (true, "Build according to today's delegation.", "Everyone"),
   )
 )
 
-Before beginning construction of our drivetrain, we took some time to evaluate different project management strategies to choose one that we could implement throughout the season. Specifically, we researched the Waterfall methodology and the Agile methodology.
 
 #grid(
   columns: 2,
@@ -47,7 +45,6 @@ Before beginning construction of our drivetrain, we took some time to evaluate d
   grid.cell(align: center + horizon)[#image("kanban-board/waterfall-methodology.svg", height: 290pt)],
 )
 
-#colbreak()
 
 #grid(
   columns: 2,
@@ -87,7 +84,7 @@ Before beginning construction of our drivetrain, we took some time to evaluate d
 
 #align(center)[
   #figure(
-    image("kanban-board\kaban-board.jpg", height: 30%),
+    image("kanban-board/kanban-board.png",),
     caption: [Our new Kanban Board!]
   )
 ]

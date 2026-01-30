@@ -3,10 +3,10 @@
 #show: create-entry.with(
   title: "Drivetrain v1 - Drive Configurations",
   type: "brainstorm",
-  date: datetime(year: 2025, month: 8, day: 8),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Eric",
+  date: datetime(year: 2025, month: 8, day: 08),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Eric",
+  witnessed: "Rory",
 )
 
 #to-do(

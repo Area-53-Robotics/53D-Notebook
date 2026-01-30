@@ -3,10 +3,20 @@
 #show: create-entry.with(
   title: "Drivetrain v1 - Driver Control",
   type: "program",
-  date: datetime(year: 2024, month: 8, day: 10),
+  date: datetime(year: 2025, month: 8, day: 29),
   attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
   designed: "Ishika",
-  witnessed: "Ishika",
+  witnessed: "Samia",
+)
+
+#to-do(
+  date: datetime(year: 2025, month: 8, day: 29),
+  monthly-schedule: "Ahead",
+  yearly-schedule: "Ahead",
+  (
+    (true, "Program the robot's drivetrain system, and implement the necessary features.", "Everyone"),
+    (true, "Test the drivetrain according to several different critera.", "Everyone"),
+  )
 )
 
 Because basic tank drive code does not change between seasons, it did not take long for us to program the tank drive configuration for our drivetrain.
@@ -32,7 +42,7 @@ After verifying that the basic tank drive code worked as intended, we brainstorm
 #admonition(type: "brainstorm", title: "Sub-Brainstorm: Driver Control")[
   - Drive Curve (Suggested by Ishika)
 ]
-
+#colbreak()
 = Drive Curve
 The purpose of a drive curve is to give the driver more precise control over the power output of the drivetrain. Normally, the relationship between the position of the joystick and the power output to the drivetrain is linear:
 

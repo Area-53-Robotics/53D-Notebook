@@ -3,14 +3,14 @@
 #show: create-entry.with(
   title: "June Planning",
   type: "management",
-  date: datetime(year: 2024, month: 6, day: 14),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Rory",
+  date: datetime(year: 2025, month: 6, day: 06),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Eric",
+  witnessed: "Samia",
 )
 
 #to-do(
-  date: datetime(year: 2025, month: 6, day: 14),
+  date: datetime(year: 2025, month: 6, day: 06),
   monthly-schedule: "On",
   yearly-schedule: "On",
   (

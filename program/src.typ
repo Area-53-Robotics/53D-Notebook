@@ -2,14 +2,11 @@
 #import "/template/globals.typ": *
 
 #show: create-program-entry.with(
-  title: "53D_HighStakes/src/"
+  title: "53D/src/"
 )
 
 = autonomous.cpp <autonomous.cpp>
 #raw(block: true, lang: "cpp", read("src/autonomous.cpp"))
-
-= chassis.cpp <chassis.cpp>
-#raw(block: true, lang: "cpp", read("src/chassis.cpp"))
 
 = global.cpp <global.cpp>
 #raw(block: true, lang: "cpp", read("src/global.cpp"))

@@ -6,15 +6,15 @@
   date: datetime(year: 2025, month: 8, day: 29),
   attendance: ("Ishika", "Makhi", "Rory", "Eric"),
   designed: "Ishika",
-  witnessed: "Makhi",
+  witnessed: "Samia",
 )
 
 
-To ensure that the first version of our drivetrain was functioning that the level that we wanted, we tested the drivetrain on the three "Aspects of a Drivetrain" that we identified in our #entry-reference(title: "Drivetrain v1", type: "identify", date: datetime(year: 2024, month: 6, day: 16)).
+To ensure that the first version of our drivetrain was functioning that the level that we wanted, we tested the drivetrain on the three "Aspects of a Drivetrain" that we identified in our #entry-reference(title: "Drivetrain v1", type: "identify", date: datetime(year: 2025, month: 8, day: 02)).
 
 = Speed Test (Mobility)
 == Background
-In an ideal world, our drivetrain should have a speed of 76.6 in/s, as calculated in our #entry-reference(title: "Drivetrain v1 - Gear Ratio", type: "brainstorm", date: datetime(year: 2024, month: 6, day: 28)). However, due to factors such as friction and the bending at the front of our drivetrain, the actual drivetrain speed will likely be slightly lower than 76.6 in/s.
+In an ideal world, our drivetrain should have a speed of 76.6 in/s, as calculated in our #entry-reference(title: "Drivetrain v1 - Gear Ratio", type: "brainstorm", date: datetime(year: 2025, month: 8, day: 15)). However, due to factors such as friction and the bending at the front of our drivetrain, the actual drivetrain speed will likely be slightly lower than 76.6 in/s.
 
 == Hypothesis
 The drivetrain will display a speed of at least 72.77 in/s, which is 5% less than our ideal speed of 76.6 in/s.

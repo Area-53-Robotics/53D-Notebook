@@ -3,53 +3,55 @@
 #show: create-entry.with(
   title: "Overall Robot Plan v1",
   type: "select",
-  date: datetime(year: 2024, month: 6, day: 15),
-  attendance: ("Ishika", "Eric", "Rory", "Makhi"),
-  designed: "Rory",
-  witnessed: "Ishika",
+  date: datetime(year: 2025, month: 6, day: 20),
+  attendance: ("Ishika", "Eric", "Rory", "Makhi", "Anders", "Samia"),
+  designed: "Ishika",
+  witnessed: "Eric",
 )
 
 #to-do(
-  date: datetime(year: 2024, month: 6, day: 15),
+  date: datetime(year: 2025, month: 6, day: 20),
   monthly-schedule: "Ahead",
   yearly-schedule: "On",
   (
     (true, "Select an overall robot idea to build for the first robot iteration.", "Everyone"),
-    (true, "Plan the implementation of the overall robot idea.", "Everyone"),
   )
 )
 
 After brainstorming different robot ideas, we had to pick one to begin building. This will be a very important decision as it will influence the functionality of our robot and subsystems in the future. As such, we identified as much criteria as possible to make an accurate judgement of each idea.
 
 #decision-matrix-criteria[
-  - Durability - The ability to remain functional despite being faced with challenges and obstacles.
-  - Mobility - To be able to move freely and efficiently.
-  - Space Use - To utilize the space to the maximum ability.
   - Intake - The consideration and quality of the intake.
-  - Clamp Ability - How well the clamp functions in consideration to the rest of the robot.
-  - Wall Stake Consistency - How consistently the robot can score rings on the wall stakes.
-  - Climb Ability - How efficient the climb is.
+  - Mobility - To be able to move freely and efficiently.
+  - Storage - The space to store a multitude of blocks for the match.
+  - Durability - The ability to remain functional despite being faced with challenges and obstacles.
+  - Accuracy - How close the number of blocks scored is gets to being equal to the number of blocks intaked. 
+  - Parking Ability -  The ability to park on the parking zone.
+  - Weight - The overall space usage of the bot and the total central weight. 
 ]
 
 #double-decision-matrix(
   criteria: (
-    ("Durability", 4),
-    ("Mobility", 5),
-    ("Space Use", 4),
     ("Intake", 5),
-    ("Clamp Ability", 4),
-    ("Wall Stake Consistency", 3),
-    ("Climb Ability", 3),
+    ("Mobility", 4),
+    ("Storage", 3),
+    ("Accuracy", 3),
+    ("Parking Ability", 2),
+    ("Durability", 4),
+    ("Weight", 4),
   ),
   choices: (
-    ("Makhi", 2, 2, 2, 1, 3, 4, 2),
-    ("Ishika", 2, 3, 3, 4, 4, 3, 3),
-    ("Eric", 3, 4, 4, 4, 3, 2, 2),
-    ("Rory", 3, 4, 4, 4, 3, 2, 2),
+    ("Makhi", 3, 3, 2, 4, 4, 3, 4),
+    ("Ishika", 4, 3, 4, 3, 4, 3, 3),
+    ("Eric", 3, 3, 2, 3, 4, 3, 3),
+    ("Rory", 3, 3, 2, 4, 4, 3, 3),
+    ("Anders", 3, 2, 2, 3, 4, 2, 2),
+    ("Samia", 2, 3, 2, 3, 4, 3, 3),
   ),
   body: colbreak()
 )
 
 #admonition(type: "select", title: "Final Selection")[
-  After careful consideration 's design was selected, as the subsystems are supported well and the whole design is sturdy and space efficient. However, the intake area is a little crowded, which could block rings from being scored. The clamp is quite well supported but it might slip off during a match. The movable intake should allow for wall stake scoring if it can move high up enough.
+  Our ultimate decision was to go with Idea 4 as it scored the highest in the decision matrix. We believed that the design had a lot of strengths that would be important for the early season competition. The goal was to have a good scoring robot that could maneuver throughout the field and score many blocks at once with accuracy. We also decided to incorporate some small elements of the other designs to idea number 4 to make it an even better idea as our early season robot. 
+
 ]

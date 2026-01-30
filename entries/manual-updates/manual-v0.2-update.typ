@@ -3,14 +3,14 @@
 #show: create-entry.with(
   title: "Game Manual v0.2 Update",
   type: "identify",
-  date: datetime(year: 2025, month: 6, day: 1),
-  attendance: ("Ishika", "Makhi", "Rory", "Eric"),
-  designed: "Ishika",
-  witnessed: "Ishika",
+  date: datetime(year: 2025, month: 6, day: 06),
+  attendance: ("Ishika", "Makhi", "Rory", "Eric", "Samia"),
+  designed: "Eric",
+  witnessed: "Samia",
 )
 
 #to-do(
-  date: datetime(year: 2025, month: 6, day: 1),
+  date: datetime(year: 2025, month: 6, day: 06),
   monthly-schedule: "Ahead",
   yearly-schedule: "Ahead",
   (
@@ -109,7 +109,6 @@
 )
 
 #colbreak()
-
 #qa-table(
   question: [
     “Would a robot being fully supported by a block that does not touch the Park zone plastic pieces or tile within but only breaking the plane whilst being supported by said block meet the criteria as parked. So my question is, is using the block to support the robot off the ground count as parking or meeting the SC4 parked criteria, is the contact of the block transitive to the robot and ground outside the park zone?”

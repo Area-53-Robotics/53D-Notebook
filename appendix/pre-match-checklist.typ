@@ -19,8 +19,6 @@
     - Left Motors
     - Right Motors
     - Intake Motor
-    - Left Ladybrown Motor
-    - Right Ladybrown Motor
   ],
   [
     = Electronics

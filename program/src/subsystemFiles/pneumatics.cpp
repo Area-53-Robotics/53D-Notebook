@@ -1,42 +1,26 @@
 #include "main.h"
 
-// creates a boolean variable that sets the variable to false
-bool clampPistonsActivated = false;
 
-void PneumaticClamp() {
-    //sets the variable defined above to true
-    if (!clampPistonsActivated) {
-        ClampPistons.set_value(1);
-        clampPistonsActivated = true;
+bool intakePistonsActivated = false;
+bool loaderPistonActivated = false;
+void PneumaticIntake() {
+    if (!intakePistonsActivated) {
+        IntakePistons.set_value(1);
+        IntakePistons2.set_value(1);
+        intakePistonsActivated = true;
     } else {
-     //keeps the variable defined above to false 
-        ClampPistons.set_value(0);
-        clampPistonsActivated = false;
+        IntakePistons.set_value(0);
+        IntakePistons2.set_value(0);
+        intakePistonsActivated = false;
     }
 }
 
-bool goalRushActivated = false;
-
-void GoalRush() {
-    //sets the variable defined above to true
-    if (!goalRushActivated) {
-        GoalRushPiston.set_value(1);
-        goalRushActivated = true;
+void PneumaticLoader() {
+    if (!loaderPistonActivated) {
+        LoaderPistons.set_value(1);
+        loaderPistonActivated = true;
     } else {
-     //keeps the variable defined above to false 
-        GoalRushPiston.set_value(0);
-        goalRushActivated = false;
-    }
-}
-
-bool ringRushActivated = false;
-
-void RingRush() {
-    if (!ringRushActivated) {
-        RingRushPiston.set_value(1);
-        ringRushActivated = true;
-    } else {
-        RingRushPiston.set_value(0);
-        ringRushActivated = false;
+        LoaderPistons.set_value(0);
+        loaderPistonActivated = false;
     }
 }

@@ -179,6 +179,12 @@
     The 2023-24 VEX Robotics Challenge. It involved scoring triangular-prism-shaped balls into goals and elevating during the endgame.
   ],
 )
+#glossary-entry(
+  title: "High Stakes",
+  category: "competition",
+  definition: [
+    The 2024-25 VEX Robotics Challenge. It involved scoring rings onto mobile goals, pushing to point-boosting corners and climbing during the endgame.
+])
 
 #glossary-entry(
   title: "Tipping Point",

@@ -3,100 +3,45 @@
 #show: create-entry.with(
   title: "Area 53 Scrimmage",
   type: "competition",
-  date: datetime(year: 2024, month: 9, day: 28),
-  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders"),
-  designed: "Ishika",
-  witnessed: "Eric",
+  date: datetime(year: 2025, month: 10, day: 11),
+  attendance: ("Ishika", "Makhi", "Eric", "Rory", "Anders", "Samia"),
+  designed: "Anders",
+  witnessed: "Rory",
 )
 
 #admonition(type: "competition", title: "Competition Results")[
-  - *Rank:* 3/8
-  - *Qualification Matches Wins/Losses/Ties:* 5/3/0
-  - *Eliminated in:* Finals
+  - *Rank:* 13/16
+  - *Qualification Matches Wins/Losses/Ties:* 1/6/0
+  - *Eliminated in:* Quarterfinals
 ]
 
 = Competition Goals
 - Verify that our subsystems are at a competitive level.
+- The current robot design matches which our goals for this season. 
 
 = Matches
 #tournament-match(
   match: "Q1",
-  red_alliance: (teams: ("53D", "23382H"), score: 33),
-  blue_alliance: (teams: ("20096G", "53B"), score: 20),
-  outcome: "Win",
-  auton: "Blue",
-  awp: false,
-  strategy: [
-    - We are going to quickly fill one mobile goal stake with rings. Then we will hand our mobile goal to 23382H.
-    - Afterwards, we will play defense.
-  ],
-  auton_notes: [
-    - 20096G attempted for a solo auton win point but failed to score a ring on the alliance wall stake. However, we still won the auton.
-  ],
-  match_notes: [
-    - We managed to collect the rings for the mobile goal in 10 seconds.
-    - Our intake was inconsistent because we did not have the flaps to push the rings down.
-    - 23382H was able to score on the wall stakes, securing our win.
-  ],
-  subsystems: (
-    overperformed: none,
-    satisfactory: "Drivetrain",
-    underperformed: ("Intake", "Clamp"),
-    disabled: none,
-  )
-)
-
-#tournament-match(
-  match: "Q3",
-  red_alliance: (teams: ("53B", "53C"), score: 12),
-  blue_alliance: (teams: ("53D", "53E"), score: 3),
+  red_alliance: (teams: ("53F", "12914X"), score: 88),
+  blue_alliance: (teams: ("53D", "20850G"), score: 35),
   outcome: "Loss",
-  auton: "Tie",
+  auton: "Red",
   awp: false,
   strategy: [
-    - Since 53E cannot score rings onto mobile goals, they will play defense.
-    - We will try to fill as many mobile goals as possible with rings and pass them to 53E
+    - Guard goals and defend scoring.
   ],
   auton_notes: [
-    - Neither alliance had an auton
+    - Auton failed as it did not do the correct functions. 
   ],
   match_notes: [
-    - 53B and 53E were unable to score rings onto mobile goals.
-    - Our intake still did not have flaps so we could not score rings
-    - We tried to pin 53C as much as we could from scoring in the positive corners
-    - Both positive corners were occupied by the red alliance, allowing them to win
-  ],
-  subsystems: (
-    overperformed: none,
-    satisfactory: ("Drivetrain", "Clamp"),
-    underperformed: "Intake",
-    disabled: none,
-  )
-)
+    - Need an aligner mech
+    - Intake works
+    - Strategy worked until goal left alone near end
 
-#tournament-match(
-  match: "Q6",
-  red_alliance: (teams: ("53D", "53A"), score: 28),
-  blue_alliance: (teams: ("53E", "23382H"), score: 23),
-  outcome: "Win",
-  auton: "Blue",
-  awp: false,
-  strategy: [
-    - We will focus on defense and securing a positive corner.
-    - 53A will focus on collecting and scoring rings onto mobile goals.
-  ],
-  auton_notes: [
-    - Our alliance did not have an auton
-    - 23382H scored 1 ring on the mobile goal, causing the blue alliance to win auton
-  ],
-  match_notes: [
-    - 53A handed us a mobile goal with 3 rings on it
-    - 23382H tried to score on the wall stakes, but were blocked by 53A
-    - 23382H tried to score a mobile goal with our rings in the negative corner. However, we quickly moved it away from the corner.
   ],
   subsystems: (
     overperformed: none,
-    satisfactory: ("Drivetrain", "Intake", "Clamp"),
+    satisfactory: ("Intake", "Drivetrain"),
     underperformed: none,
     disabled: none,
   )
@@ -104,13 +49,65 @@
 
 #tournament-match(
   match: "Q7",
-  red_alliance: (teams: ("23382H", "53C"), score: 33),
-  blue_alliance: (teams: ("53D", "53F"), score: 0),
+  red_alliance: (teams: ("53D", "20850C"), score: 11),
+  blue_alliance: (teams: ("53C", "20850Z"), score: 62),
   outcome: "Loss",
   auton: "Blue",
   awp: false,
   strategy: [
-    - Since the enemy alliance have ring scoring mechanisms, we are going to play defense
+    - Interfere with other scoring and try to score on the center goal
+  ],
+  auton_notes: [
+    - Neither alliance had a good auton but auton went to blue for what they did have. 
+  ],
+  match_notes: [
+    - Our intake wasn’t on during the match
+    - Poor communication with teammates
+    - We managed to prevent scoring on one goal
+  ],
+  subsystems: (
+    overperformed: none,
+    satisfactory: "Drivetrain",
+    underperformed: none,
+    disabled: "Intake",
+  )
+)
+
+#tournament-match(
+  match: "Q10",
+  red_alliance: (teams: ("20850T", "20850S"), score: 65),
+  blue_alliance: (teams: ("53E", "23382H"), score: 21),
+  outcome: "Loss",
+  auton: "Red",
+  awp: false,
+  strategy: [
+    - Defend against other bots by pushing them around.
+  ],
+  auton_notes: [
+    - The auton still had issues and the other alliance had a very good auton that was very consistent.
+  ],
+  match_notes: [
+    - Intake change wasn’t good
+    - Goals were decent, got cleared late
+
+  ],
+  subsystems: (
+    overperformed: none,
+    satisfactory: "Drivetrain",
+    underperformed: "Intake",
+    disabled: none,
+  )
+)
+
+#tournament-match(
+  match: "Q13",
+  red_alliance: (teams: ("20850T", "53E"), score: 11),
+  blue_alliance: (teams: ("20850W", "53D"), score: 63),
+  outcome: "Win",
+  auton: "Blue",
+  awp: false,
+  strategy: [
+    - Score in the middle so that others can’t descore.
   ],
   auton_notes: [
     - 23382H scored 1 ring on the mobile goal
@@ -124,182 +121,92 @@
   ],
   subsystems: (
     overperformed: none,
-    satisfactory: none,
-    underperformed: none,
-    disabled: ("Drivetrain", "Intake", "Clamp"),
-  )
-)
-
-#tournament-match(
-  match: "Q9",
-  red_alliance: (teams: ("53D", "53E"), score: 0),
-  blue_alliance: (teams: ("20096G", "53F"), score: 34),
-  outcome: "Loss",
-  auton: "Tie",
-  awp: false,
-  strategy: [
-    - Since the enemy alliance is confident in their ability to score rings, we are going to try to play defense
-  ],
-  auton_notes: [
-    - Neither alliance had an auton
-  ],
-  match_notes: [
-    - Since this is a back to back match, our drivetrain was overheating
-    - We could not move much throughout the match
-    - 53F's motor came off from their intake
-    - 53C and 23382H took advantage and score as much rings as possible
-    - The chains in our intake broke off
-  ],
-  subsystems: (
-    overperformed: none,
-    satisfactory: none,
-    underperformed: none,
-    disabled: ("Drivetrain", "Intake", "Clamp"),
-  )
-)
-
-#tournament-match(
-  match: "Q11",
-  red_alliance: (teams: ("53B", "53F"), score: 3),
-  blue_alliance: (teams: ("53A", "53D"), score: 35),
-  outcome: "Win",
-  auton: "Tie",
-  awp: false,
-  strategy: [
-    - We plan to better manage time and communication with our alliance partner.
-  ],
-  auton_notes: [
-    - Our auton failed to clamp on to the mobile goal and did not score.
-    - We were the only robot with an auton.
-  ],
-  match_notes: [
-    - At the start of the match every team except 53B clamped onto a mobile goal.
-    - Instead, 53B pushed rings into the positive corner, which did not affect the match much.
-    - Our clamp caused some trouble at the start, but we figured it out.
-    - While the other teams were preoccupied, we managed to score two mobile goals in the positive corner.
-    - 53A tried to put a mobile goal with 6 red rings into the negative corner, while 53B blocked them.
-    - Our intake worked well, and we only failed to score one ring.
-  ],
-  subsystems: (
-    overperformed: "Intake",
-    satisfactory: ("Drivetrain", "Clamp"),
-    underperformed: none,
-    disabled: none,
-  )
-)
-
-#tournament-match(
-  match: "Q13",
-  red_alliance: (teams: ("53C", "53A"), score: 20),
-  blue_alliance: (teams: ("53D", "20096G"), score: 24),
-  outcome: "Win",
-  auton: "Blue",
-  awp: true,
-  strategy: [
-    - We will stay mobile and score rings onto mobile goals.
-    - Meanwhile, 20096G will fight for the positive corner since they have a bulkier robot than us.
-  ],
-  auton_notes: [
-    - We scored 1 ring and 20096G scored 2 rings
-    - 53C clamped on to a mobile goal, but failed to score.
-  ],
-  match_notes: [
-    - 53C and 20096G fought for the positive corner closest to us.
-    - Us and 53A fought for the far positive corner.
-    - After not much happening, we decided to grab another mobile goal and attempt to score that way.
-    - Our clamp was having issues securing the mobile goal, making it hard to score
-  ],
-  subsystems: (
-    overperformed: none,
-    satisfactory: ("Drivetrain", "Intake"),
-    underperformed: "Clamp",
-    disabled: none,
-  )
-)
-
-#tournament-match(
-  match: "Q16",
-  red_alliance: (teams: ("53D", "20096G"), score: 27),
-  blue_alliance: (teams: ("53A", "53C"), score: 11),
-  outcome: "Win",
-  auton: "Red",
-  awp: false,
-  strategy: [
-    - 20096G grabs as many rings as possible.
-    - We play defense and secure a positive corner.
-  ],
-  auton_notes: [
-    - All teams except 53A had auton, but only 20096G managed to score.
-  ],
-  match_notes: [
-    - Increasing our intake speed helped us score quickly, although it was still a little inconsistent.
-    - 20096G secured the close positive corner quickly and maintained control.
-    - We tried to place our mobile goal in a positive corner, but our clamp failed.
-    - Makhi (our driver) did very well. He saw opportunities and took them, leading to a large win for us.
-  ],
-   subsystems: (
-    overperformed: ("Drivetrain", "Intake"),
-    satisfactory: none,
-    underperformed: "Clamp",
-    disabled: none,
-  )
-)
-
-#tournament-match(
-  match: "Semifinals",
-  red_alliance: (teams: ("53D", "53C"), score: 29),
-  blue_alliance: (teams: ("53A", "53F"), score: 9),
-  outcome: "Win",
-  auton: "Blue",
-  awp: false,
-  strategy: [
-    - We will have someone in the drive team announce in the last ten seconds when to play more aggressively.
-    - Because there is a mobile goal protection, we can prevent the other alliance from hanging.
-  ],
-  auton_notes: [
-    - 53C scored one ring, which was enough to win auton.
-  ],
-  match_notes: [
-    - Our clamp was misaligned, blocking our intake
-    - We secured a mobile goal in a positive corner when the blue alliance left the corner undefended.
-    - While the other 3 robots were fighting over the positive corners, 53A grabbed a mobile goal with 6 rings on it and brought it to the negative corner.
-    - This reminded us that we need to keep track of what other robots are doing with all the corners, not just the positive ones.
-  ],
-  subsystems: (
-    overperformed: none,
     satisfactory: "Drivetrain",
-    underperformed: "Clamp",
+    underperformed: none,
     disabled: "Intake",
   )
 )
 
 #tournament-match(
-  match: "Finals",
-  red_alliance: (teams: ("20096G", "23382H"), score: 28),
-  blue_alliance: (teams: ("53D", "53C"), score: 18),
+  match: "Q17",
+  red_alliance: (teams: ("53D", "53E"), score: 33),
+  blue_alliance: (teams: ("20850G", "20850Z"), score: 67),
   outcome: "Loss",
-  auton: "Red",
+  auton: "Blue",
   awp: false,
   strategy: [
-    - Similar strategy to semi-finals, however we want to play more aggressively since the red alliance is likely going to win the auton bonus.
+    - Defend goals while the other team scores
+
   ],
   auton_notes: [
-    - All of the robots had an auton.
-    - However, only 53C and 20096G scored one and two rings respectively.
+    - Neither auton worked
   ],
   match_notes: [
-    - We immediately went for a positive corner. However, we struggled to clear the rings out of the corner for our mobile goal.
-    - We also misscored two red rings onto a mobile goal.
-    - Our intake launched a blue ring out of the field, and was unreliable for most of the match
-      - In the future we will improve our intake consistency and possibly add automatic ring rejection for the opposing alliance's rings.
+     - Intake issues again
+    - Goal control is important
   ],
- subsystems: (
+  subsystems: (
     overperformed: none,
-    satisfactory: ("Drivetrain", "Clamp"),
+    satisfactory: "Drivetrain",
     underperformed: "Intake",
     disabled: none,
   )
 )
+
+
+#tournament-match(
+  match: "Q24",
+  red_alliance: (teams: ("53A", "53D"), score: 24),
+  blue_alliance: (teams: ("20850U", "20850A"), score: 38),
+  outcome: "Loss",
+  auton: "Blue",
+  awp: false,
+  strategy: [
+    - Focus on scoring on the high goals
+  ],
+  auton_notes: [
+    - Our auton did not work, while our alliance partner did not have an auton. 
+  ],
+  match_notes: [
+    - During the middle of the match, our intake broke from a fallen motor which resulted in us being unable to score as much anymore.
+    - We focused a lot of our energy on defending, and made sure to help out our alliance partner.  
+  ],
+   subsystems: (
+    overperformed: none,
+    satisfactory: "Drivetrain",
+    underperformed: none,
+    disabled: "Intake",
+  )
+)
+
+#tournament-match(
+  match: "Quarterfinals",
+  red_alliance: (teams: ("20850Z", "20850W"), score: 59),
+  blue_alliance: (teams: ("53A", "53D"), score: 38),
+  outcome: "Loss",
+  auton: "Red",
+  awp: false,
+  strategy: [
+    - Communicate with teammates and the driveteam
+  ],
+  auton_notes: [
+    - Our auton did not work, while our alliance partner did not have an auton.
+    - The opposing alliance had really good autons. 
+  ],
+  match_notes: [
+    - Did pretty well, goal control cost us match.
+    - One of our best matches with the intake working well and scoring a lot.
+    - We were unable to keep goal control which cost us the match, along with auton. 
+  ],
+  subsystems: (
+    overperformed: none,
+    satisfactory: ("Drivetrain", "Intake"),
+    underperformed: none,
+    disabled: none,
+  )
+)
+
+
 
 = Subsystem Reflection
 #v(0.5em)
@@ -307,13 +214,13 @@
   == Drivetrain
   #subsystem-analysis(
     reflection: [
-      We did not run into many problems with the drivetrain. The drivetrain motors overheated at some points, but this was expected because of the short time intervals between matches.
+      Our drivetrain actually worked very well, and we were able to move around the field quickly.
     ],
     radius: 3,
-    overperformed: 1,
+    overperformed: 0,
     satisfactory: 7,
     underperformed: 0,
-    disabled: 2
+    disabled: 0
   )
 ]
 
@@ -321,27 +228,13 @@
   == Intake
   #subsystem-analysis(
     reflection: [
-      In the beginning of the scrimmage, the intake had a hard time grabbing rings. This was because the intake did not have a flap to press the rings down. After Q11, we saw that the intake got more consistent.
+      Repeated intake failures kept on causing us to lose valuable scoring opportunities.
     ],
     radius: 3,
-    overperformed: 2,
+    overperformed: 0,
     satisfactory: 2,
-    underperformed: 3,
-    disabled: 3
-  )
-]
-
-#box[
-  == Clamp
-  #subsystem-analysis(
-    reflection: [
-      The clamp's arm was too low and struggled to grab the mobile goals. We came up with a solution where we added an extra piece of lexan to the end. This seemed to work as a temporary solution, but we will need to add extra length to the clamp.
-    ],
-    radius: 3,
-    overperformed: 4,
-    satisfactory: 4,
     underperformed: 2,
-    disabled: 0
+    disabled: 3
   )
 ]
 
@@ -349,17 +242,17 @@
 
 = Individual Reflections
 
-== 
-#h(1em) The challenges with the intake and clamp serve as reminders that even small design elements can significantly impact performance. Going further, I want to place a stronger emphasis on planning and CADing.
-
 == Ishika
-#h(1em) Our standing in the Scrimmage reflects how much our team has grown over the past year. The intake performed well, quickly gathering and scoring rings, although it occasionally got stuck on a wire, highlighting the need for better wire management. The clamp needs tuning for more consistent performance, as it impacted our autonomous mode, which functioned but struggled to clamp the goal effectively. Additionally, our autonomous routine could improve, as the quick version used wasn't fully troubleshooted. I believe our driver showed great skill, but as a team, we need to discuss strategy to ensure backup drivers and the rest of the drive team understand matchplay better. Overall, the scrimmage was a valuable learning experience that helped identify our weak spots.
+#h(1em) Our standing in the Scrimmage reflects how much our team needs tp grow over this year. The intake did not perform well, as it did not quickly gathering and score blocks, rather it kept breaking apart. The auton was the most disappointing part of the scrimmage, as the programmer I expected more from it but it seemed that the team needs to spend more time working on these autons. I believe our driver showed great skill, but as a team, we need to discuss strategy to ensure backup drivers and the rest of the drive team understand matchplay better. Overall, the scrimmage was a valuable learning experience that helped identify our weak spots.
 
 == Makhi
-#h(1em) Overall I think we did quite well, a few things we need to improve on include communication and handling stress and time. We also need to have any changes completed before competitions in the future to allow as much time as possible to repair and strategize during the event itself. Getting driver practice and seeing what other teams are doing was helpful in the game. Getting 3rd in team rankings and second in alliance rankings shows that we are doing much better this year than at this time last year.
+#h(1em) Overall I think we didn't do as well as I would have liked, so we need to improve on many thing like communication and handling stress and time. We also need to have any changes completed before competitions in the future to allow as much time as possible to repair and strategize during the event itself. Getting driver practice and seeing what other teams are doing was helpful in the game. We also discussed changing this robot idea as we have seen that it does not do much to help us. 
 
 == Rory
-#h(1em) Overall we did pretty well at the scrimmage, getting second place, getting the auton working for one round, and just getting some real practice in before a real competition. Although we did well, we did have some issues. We stressed about the auton, and at one point we were building an entire new mechanism before the scrimmage started. We did have the opportunity to see how teams outside of the 53 teams were performing and the opportunity to practice with another team. We also realized that out clamp is sometimes inconsistent during a match.
+#h(1em) Overall we didn't do well at the scrimmage,but it was real practice before a real competition. We stressed about the auton, and at one point we were tuning a mechanism so much we forget that we were up immediately leading to parts off the robot. We did have the opportunity to see how teams outside of the 53 teams were performing and the opportunity to practice with another team. We also realized that something needs to be done about this current robot design because it is not very suitable for our goals. 
 
 == Eric
-#h(1em) Our standing in the Scrimmage reflects significant growth for our team over the past year. The intake performed well, quickly gathering and scoring rings, though it occasionally got stuck on a wire, underscoring the need for better wire management to keep our workspace organized and minimize distractions. Additionally, the clamp requires tuning for more consistent performance, as it impacted our autonomous mode, which functioned but struggled to clamp the goal effectively, leading to missed opportunities during crucial moments. Our autonomous routine also needs improvement; the quick version we used wasn't fully troubleshooted, resulting in unexpected behavior during matches. These insights will guide us in refining our mechanisms and enhancing our strategic discussions as we prepare for future competitions.
+#h(1em) Our standing in the Scrimmage reflects the need for growth in our team for the sake of the future. The intake performed bad, breaking down so many times instead of scoring, though it had one good match. Our autonomous routine also needs improvement; the quick version we used wasn't fully troubleshooted, resulting in unexpected behavior during matches. Finally, we need to discuss the constraints of the current idea we have because there will be a problem if our team keeps progressing in this direction. These insights will guide us in refining our mechanisms and enhancing our strategic discussions as we prepare for future competitions. 
+
+== Anders 
+#h(1em)Considering this was the first competition of the season, I would say we did okay. At the start, we had high hopes and our bot was definitely one of the best ones. However, we were plagued with quality issues, like subsystems (especially the intake) not working. Our auton also required a lot of work, which could’ve helped us win many of our matches. Since this was just a scrimmage, we decided to rebuild a large part of our intake halfway through the competition. This meant we had no time to troubleshoot or tune it, so we lost a lot of matches. All in all, although we didn’t do the best on paper, we definitely made some big improvements to our bot and learned things that will help us for the rest of the season.
